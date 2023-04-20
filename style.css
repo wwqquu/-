@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Sansation';
+    src: url('sansation/Sansation-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+body{
+    font-family: 'Sansation','Rajdhani', sans-serif;;
+}
+
+.name{
+    size: 79px;
+    display: flex; 
+    margin-top: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 50px;
+    justify-content: space-around;
+   text-decoration: none;
+}
+
+.block-name{
+    background: #C7B498;
+border: 2px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    width: fit-content;
+    padding: 6px;   
+}
+.sOw{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center 
+}
+button{
+     display: flex;
+    margin-top: 10px;
+    justify-content: center 
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.etab-raboti,.portfolio-img,.web-img{
+    background: #EAEAEA;
+    padding: 20px;
+    box-shadow: 1px 1px 7px 0px #00000085;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-img img{
+    width: 28%;
+}
+.portfolio-img section{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 74px;
+}
+
+/* .web-img{
+    justify-content: center;
+    background: #EAEAEA;
+    padding: 20px;
+    box-shadow: 1px 1px 7px 0px #00000085;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} */
+.web-img img{
+    height: 515px;
+}
+.text-left{
+    align-self: normal;
+}
